@@ -1,0 +1,49 @@
+.empty {
+    height: 40px;
+}
+
+.heding {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.some{
+    width: 75%;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.icons {
+    filter: invert(1);
+}
+
+.icons :first-child {
+    width: 14px;
+    height: 14px;
+    padding: 8px;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.icons :first-child:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+
+.icons :last-child {
+    width: 18px;
+    height: 18px;
+    padding: 6px;
+    padding-top: 11px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.icons :last-child:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+}
