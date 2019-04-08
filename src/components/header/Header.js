@@ -8,7 +8,7 @@ class Header extends Component{
             <div>
                 <div className='empty'></div>
                 <div className='heding'>
-                    <div className='logoNavPositions'>
+                    <div className='logoNavPosition'>
                         <img src={require('./img/logo.png')} alt='logo' className='logo'/>
                         <Nav />
                     </div>

@@ -8,7 +8,12 @@
     justify-content: space-between;
 }
 
-.some{
+.logoNavPosition{
+    display: flex;
+    width: 75%;
+}
+
+.logoNavPosition div{
     width: 75%;
 }
 

@@ -13,7 +13,7 @@ import './Nav.css'
 class Nav extends Component{ 
     render(){
         return (
-            <div className='some'>
+            <div>
                 <nav>
                     <ul className='menu'>
                         <li>
