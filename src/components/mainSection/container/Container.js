@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './Container.css';
-import Header from '../header/Header'
+import MainSection from '../MainSection';
 
 class Container extends Component {
   render() {
     return (
-      <div className="container">
-        <Header />
+      <div className='background'>
+        <div className='container'>
+          <MainSection />
+        </div>
       </div>
     );
   }

@@ -1,0 +1,20 @@
+.param {
+    margin-left: 20px;
+    margin-right: 36px;
+    white-space: nowrap;
+}
+
+.filter {
+    width: 150px;
+    height: 100%;
+    box-shadow: 1px 0 0 0 #E5E5E5;
+    display: flex;
+    align-items: center;
+}
+
+.filter img {
+    width: 10px;
+    height: 6px;
+    padding: 12px 10px;
+    cursor: pointer;
+}

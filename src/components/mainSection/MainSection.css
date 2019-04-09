@@ -1,0 +1,23 @@
+/* .section {
+    background: url(./img/backgroung-image-house6.png) no-repeat right, url(./img/header-background.png) no-repeat center top / cover;
+    height: auto;
+    max-width: 1440px;
+    padding-bottom: 231px;
+    margin: 0 auto;
+} */
+
+.titles {
+    color: #fff;
+    font-weight: bold;
+}
+
+.titles h1 {
+    font-size: 44px;
+    margin: 158px 0 0 0;
+}
+
+.losung {
+    font-size: 18px;
+    height: 23px;
+    margin: 10px 0 40px 0;
+}
