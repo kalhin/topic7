@@ -26,3 +26,15 @@
     height: 23px;
     margin: 10px 0 40px 0;
 }
+
+@media (max-width: 1200px) {
+    .background .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 561px) {
+    .titles {
+        text-align: center;
+    }
+}

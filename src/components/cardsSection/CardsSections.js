@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './CardsSections.css';
-import Cards from './cards/Cards';
 
 const cardsList = [
     {name: 'Villa With Pool', price: 225.000, address: '263 S Rexford Dr, Beverly Hills, CA 90212', options: {beds: 4, baths: 5, SqFt: 980}},

@@ -52,3 +52,9 @@
     transform: scale(1.5);
     transition: transform 1s;
 }
+
+@media (max-width: 450px) {
+    .logo {
+        margin-right: 10px;
+    }
+}

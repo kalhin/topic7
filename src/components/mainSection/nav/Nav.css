@@ -28,3 +28,11 @@ li:hover {
     transform: scale(1.25);
     transition: transform 1s;
 }
+
+@media (max-width: 1000px) {
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+}
