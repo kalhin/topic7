@@ -1,0 +1,120 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h2 {
+    height: 41px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    color: #454545;
+    background-color: #f0f0f1;
+    border-radius: 5px;
+    border: solid 1px #f0f0f1;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.info h4 {
+    font-size: 18px;
+    height: 23px;
+    margin: 0;
+}
+
+.info {
+    margin: 20px 40px 26px 20px;
+}
+
+.price {
+    font-size: 18px;
+    height: 23px;
+    font-weight: bold;
+    color: #004dff;
+    margin: 5px 0;
+}
+
+.address {
+    font-size: 14px;
+    height: 18px;
+    margin: 0;
+}
+
+.options {
+    height: 30px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options :first-child {
+    padding: 7px 5px;
+}
+
+.options :nth-child(5) {
+    padding: 7px;
+}
+
+.options :nth-child(3) {
+    width: 18px;
+    transform: scale(-1, 1);
+    filter: invert(0.3);
+}
+
+.options p {
+    font-size: 14px;
+    height: 18px;
+    margin: 0;
+    color: #454545;
+}
+
+button {
+    border: 0;
+    outline: none;
+    padding: 0 25px;
+    margin-top: 30px;
+    width: auto;
+    height: 50px;
+    background-color: #004dff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: transform 1s,;
+}
+
+button:hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+
+@media(max-width: 1095px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 1200px) {
+    h2 {
+        text-align: center;
+    }
+}
