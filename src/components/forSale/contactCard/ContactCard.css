@@ -1,0 +1,36 @@
+.contact-card {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.contact-card div {
+    margin-left: 20px;
+}
+
+.contact-card .address {
+    margin-bottom: 2px;
+}
+
+.name {
+    font-size: 14px;
+    height: 18px;
+    margin: 0;
+    color: #454545;
+}
+
+.contact-card button {
+    width: 114px;
+    margin: 0;
+    margin-left: auto;
+}
+
+@media (max-width: 500px) {
+    .contact-card img {
+        display: none;
+    }
+    .contact-card div {
+        margin: 0;
+    }
+}

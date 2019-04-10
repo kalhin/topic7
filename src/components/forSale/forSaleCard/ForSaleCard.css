@@ -1,0 +1,46 @@
+.for-sale .container {
+    margin: 0 auto;
+}
+
+.card-card {
+    max-width: 540px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.for-sale .info {
+    padding: 50px 120px 50px 50px;
+}
+
+.sale-card button {
+    background-color: #ff9f00;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 0 0 30px 0;
+    height: 30px;
+}
+
+.sale-card {
+    min-height: 324px;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.sale-card h4 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.sale-card .price {
+    height: 30px;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.for-sale .address {
+    height: 23px;
+    font-size: 18px;
+    color: #454545;
+    margin-bottom: 20px;
+}

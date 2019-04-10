@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './MainSection.css';
-import Header from './header/Header';
+import Header from '../header/Header';
 import SearchField from './searcField/SearchField';
 
 class MainSection extends Component{
     render(){
         return (
             <div className='background'>
+            <img src={require('./img/backgr1.png')} alt='background' className='backgr1'/>
+            <img src={require('./img/backgr2.png')} alt='background' className='backgr2'/>
                 <div className='container'>
                     <Header />
                     <div className='titles'>

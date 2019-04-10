@@ -14,19 +14,21 @@ class Nav extends Component{
     render(){
         return (
             <div>
-                <nav>{printNavList({navList})}</nav>
+                <nav>
+                    <PrintNavList/>
+                </nav>
             </div>
         );
     }
 }
 
-function printNavList({navList}){
-    const nanListList = navList.map(element => 
+function PrintNavList(){
+    const navListList = navList.map(element => 
             <li key={element.pageName}><a href={element.pageWay}>{element.pageName}</a></li>
         );
     return (
         <ul className='menu'>
-            {nanListList}
+            {navListList}
         </ul>
     );
 };

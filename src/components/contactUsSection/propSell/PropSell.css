@@ -1,0 +1,22 @@
+.sell-prop {
+    background-color: #004dff;
+    color: #fff;
+}
+
+.sell-prop p {
+    font-size: 16px;
+    margin: 20px 0;
+    max-width: 350px;
+}
+
+.contact-us {
+    background-color: #1dc679;
+    display: inline;
+    margin: 0;
+}
+
+@media (max-width: 1095px) {
+    .sell-prop {
+        margin-top: 30px;
+    }
+}

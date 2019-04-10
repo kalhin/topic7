@@ -1,0 +1,40 @@
+.prop {
+    min-width: 540px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.prop h3 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.prop-info {
+    background-color: #f6f7f9;
+}
+
+.prop-info h3 {
+    color: #004dff;
+}
+
+.prop-info p {
+    height: 23px;
+    font-size: 18px;
+    color: #454545;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1095px) {
+    .contact-us .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 555px) {
+    .prop {
+        min-width: 350px;
+    }
+}

@@ -13,11 +13,13 @@ const cardsList = [
 class CardsSections extends Component{
     render(){
         return(
-            <div className='container'>
-                <h2>Featured Properties</h2>
-                {printCards({cardsList})}
-                <button>All Properties</button>
-            </div>
+            <section>
+                <div className='container'>
+                    <h2>Featured Properties</h2>
+                    {printCards({cardsList})}
+                    <button>All Properties</button>
+                </div>
+            </section>
         );
     }
 }
@@ -25,17 +27,17 @@ class CardsSections extends Component{
 function printCards({cardsList}){
     const cardsListList = cardsList.map(element =>
         <div key={element.name} className='card'>
-            <img src={require('./cards/img/home.png')} alt='house'/>
+            <img src={require('./img/home.png')} alt='house'/>
             <div className='info'>
                 <h4>{element.name}</h4>
                 <p className='price'>${element.price}</p>
-                <p class='address'>{element.address}</p>
+                <p className='address'>{element.address}</p>
                 <div className='options'>
-                    <img src={require('./cards/img/bed.png')} alt='bed'/>
+                    <img src={require('./img/bed.png')} alt='bed'/>
                     <p>{element.options.beds} beds</p>
-                    <img src={require('./cards/img/shower.png')} alt='bed'/>
+                    <img src={require('./img/shower.png')} alt='bed'/>
                     <p>{element.options.baths} baths</p>
-                    <img src={require('./cards/img/squard.png')} alt='bed'/>
+                    <img src={require('./img/squard.png')} alt='bed'/>
                     <p>{element.options.SqFt} SqFt</p>
                 </div>
             </div>
