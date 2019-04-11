@@ -9,28 +9,25 @@ const navList = [
     {pageWay: '#', pageName: 'Our Agents'},
     {pageWay: '#', pageName: 'Contact Us'}
 ];
+console.log('<Component/>');
 
 class Nav extends Component{ 
-    render(){
+    render() {
+        const list = navList.map(element => 
+            <li key={element.pageName}>
+                <a href={element.pageWay}>{element.pageName}</a>
+            </li>
+        );
         return (
             <div>
                 <nav>
-                    <PrintNavList/>
+                    <ul className='menu'>
+                        {list}
+                    </ul>
                 </nav>
             </div>
         );
     }
 }
-
-function PrintNavList(){
-    const navListList = navList.map(element => 
-            <li key={element.pageName}><a href={element.pageWay}>{element.pageName}</a></li>
-        );
-    return (
-        <ul className='menu'>
-            {navListList}
-        </ul>
-    );
-};
 
 export default Nav;
