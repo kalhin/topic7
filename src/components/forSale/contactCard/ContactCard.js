@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './ContactCard.css';
+import opi from './img/opi-avatar.png';
 
 class ContactCard extends Component {
     render() {
         return(
             <div className='card-card contact-card'>
-                <img src={require('./img/opi-avatar.png')} alt='avatar'/>
+                <img src={opi} alt='avatar'/>
                 <div>
                     <p className='address'>Opi Watihana</p>
                     <p className='name'>Sales Manager</p>

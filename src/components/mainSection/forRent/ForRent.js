@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ForRent.css';
+import arrowDown from './img/arrow-down.png';
 
 class ForRent extends Component{
     render(){
@@ -8,7 +9,7 @@ class ForRent extends Component{
                 <div className='param'>
                     For Rent
                 </div>
-                <img src={require('./img/arrow-down.png')} alt='arrow down' />
+                <img src={arrowDown} alt='arrow down' />
             </div>
         );
     }

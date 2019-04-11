@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ForSale.css';
+import background from './img/background-image.png';
 import ForSaleCard from './forSaleCard/ForSaleCard';
 import ContactCard from './contactCard/ContactCard';
 
@@ -7,7 +8,7 @@ class ForSale extends Component {
     render() {
         return(
             <section className='forSale'>
-                <img src={require('./img/background-image.png')} alt='backgr' className='img'/>
+                <img src={background} className='img' alt='backgr' />
                 <div className='container'>
                     <ForSaleCard />
                     <ContactCard />

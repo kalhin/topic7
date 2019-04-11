@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './ForSaleCard.css';
+import bed from './img/bed.png';
+import shower from './img/shower.png';
+import squard from './img/squard.png';
 
 class ForSaleCard extends Component {
     render() {
@@ -10,11 +13,11 @@ class ForSaleCard extends Component {
                 <p className='price'>$225,000</p>
                 <p className='address'>263 S Rexford Dr, Beverly Hills, CA 90212</p>
                 <div className='options'>
-                    <img src={require('./img/bed.png')} alt='bed'/>
+                    <img src={bed} alt='bed'/>
                     <p>4 Beds</p>
-                    <img src={require('./img/shower.png')} alt='baths'/>
+                    <img src={shower} alt='baths'/>
                     <p>2 Baths</p>
-                    <img src={require('./img/squard.png')} alt='sqft'/>
+                    <img src={squard} alt='sqft'/>
                     <p>980 SqFt</p>
                 </div>
             </div>

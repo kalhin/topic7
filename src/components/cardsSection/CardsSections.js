@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './CardsSections.css';
+import home from './img/home.png';
+import bed from './img/bed.png';
+import shower from './img/shower.png';
+import squard from './img/squard.png';
 
 const cardsList = [
     {name: 'Villa With Pool', price: 225.000, address: '263 S Rexford Dr, Beverly Hills, CA 90212', options: {beds: 4, baths: 5, SqFt: 980}},
@@ -27,17 +31,17 @@ class CardsSections extends Component{
 function printCards({cardsList}){
     const cardsListList = cardsList.map(element =>
         <div key={element.name} className='card'>
-            <img src={require('./img/home.png')} alt='house'/>
+            <img src={home} alt='house'/>
             <div className='info'>
                 <h4>{element.name}</h4>
                 <p className='price'>${element.price}</p>
                 <p className='address'>{element.address}</p>
                 <div className='options'>
-                    <img src={require('./img/bed.png')} alt='bed'/>
+                    <img src={bed} alt='bed'/>
                     <p>{element.options.beds} beds</p>
-                    <img src={require('./img/shower.png')} alt='bed'/>
+                    <img src={shower} alt='bed'/>
                     <p>{element.options.baths} baths</p>
-                    <img src={require('./img/squard.png')} alt='bed'/>
+                    <img src={squard} alt='bed'/>
                     <p>{element.options.SqFt} SqFt</p>
                 </div>
             </div>
