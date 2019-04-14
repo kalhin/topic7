@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './MainSection.css';
-import Header from '../header/Header';
-import SearchField from './searcField/SearchField';
-import backgr1 from './img/backgr1.png';
-import backgr2 from './img/backgr2.png';
+import '../css/MainSection.css';
+import Header from './Header';
+import SearchField from './SearchField';
+import backgr1 from '../img/backgr1.png';
+import backgr2 from '../img/backgr2.png';
 
 class MainSection extends Component{
     render(){

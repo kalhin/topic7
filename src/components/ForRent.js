@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './ForRent.css';
-import arrowDown from './img/arrow-down.png';
+import '../css/ForRent.css';
+import arrowDown from '../img/arrow-down.png';
 
 class ForRent extends Component{
     render(){

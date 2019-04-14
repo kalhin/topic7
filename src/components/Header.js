@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Header.css';
-import Nav from './nav/Nav';
-import logo from './img/logo.png';
-import arrows from './img/arrows.png';
-import heart from './img/heart.png';
+import '../css/Header.css';
+import Nav from './Nav';
+import logo from '../img/logo.png';
+import arrows from '../img/arrows.png';
+import heart from '../img/heart.png';
 
 class Header extends Component{
     render(){

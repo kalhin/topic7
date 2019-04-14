@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PropInfo.css'
+import '../css/PropInfo.css'
 
 class PropInfo extends Component {
     render(){

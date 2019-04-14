@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PropSell.css'
+import '../css/PropSell.css'
 
 class PropSell extends Component {
     render(){

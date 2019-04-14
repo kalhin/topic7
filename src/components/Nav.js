@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Nav.css';
+import '../css/Nav.css';
 
 const navList = [
     {pageWay: '#', pageName: 'Homepage'},
@@ -9,7 +9,6 @@ const navList = [
     {pageWay: '#', pageName: 'Our Agents'},
     {pageWay: '#', pageName: 'Contact Us'}
 ];
-console.log('<Component/>');
 
 class Nav extends Component{ 
     render() {

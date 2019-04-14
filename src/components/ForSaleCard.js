@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './ForSaleCard.css';
-import bed from './img/bed.png';
-import shower from './img/shower.png';
-import squard from './img/squard.png';
+import '../css/ForSaleCard.css';
+import bed from '../img/bed.png';
+import shower from '../img/shower.png';
+import squard from '../img/squard.png';
 
 class ForSaleCard extends Component {
     render() {

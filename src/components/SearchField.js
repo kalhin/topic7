@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './SearchField.css';
-import ForRent from '../forRent/ForRent';
-import Search from '../search/Search';
+import '../css/SearchField.css';
+import ForRent from './ForRent';
+import Search from './Search';
 
 class SearchField extends Component{
     render(){

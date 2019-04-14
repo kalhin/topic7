@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './ContactCard.css';
-import opi from './img/opi-avatar.png';
+import '../css/ContactCard.css';
+import opi from '../img/opi-avatar.png';
 
 class ContactCard extends Component {
     render() {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import MainSection from './mainSection/MainSection';
-import CardsSection from './cardsSection/CardsSections';
-import ContactUS from './contactUsSection/ContactUs';
-import ForSale from './forSale/ForSale';
-// import FeedbackSection from './feedbackSection/FeedBackSection';
-import Footer from './footer/Footer';
+import MainSection from './MainSection';
+import CardsSection from './CardsSections';
+import ContactUS from './ContactUs';
+import ForSale from './ForSale';
+// import FeedbackSection from './FeedBackSection';
+import Footer from './Footer';
 
 class App extends Component{
     render(){

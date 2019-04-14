@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './ContactUs.css'
-import PropInfo from './propInfo/PropInfo';
-import PropSell from './propSell/PropSell';
+import '../css/ContactUs.css'
+import PropInfo from './PropInfo';
+import PropSell from './PropSell';
 
 class ContactUs extends Component {
     render(){

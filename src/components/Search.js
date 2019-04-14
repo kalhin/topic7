@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Search.css";
-import search from "./img/search.png";
+import "../css/Search.css";
+import search from "../img/search.png";
 
 class Search extends Component {
   render() {

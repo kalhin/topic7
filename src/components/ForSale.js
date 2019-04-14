@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './ForSale.css';
-import background from './img/background-image.png';
-import ForSaleCard from './forSaleCard/ForSaleCard';
-import ContactCard from './contactCard/ContactCard';
+import '../css/ForSale.css';
+import background from '../img/background-image.png';
+import ForSaleCard from './ForSaleCard';
+import ContactCard from './ContactCard';
 
 class ForSale extends Component {
     render() {
