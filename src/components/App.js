@@ -4,6 +4,7 @@ import CardsSection from './CardsSections';
 import ContactUS from './ContactUs';
 import ForSale from './ForSale';
 // import FeedbackSection from './FeedBackSection';
+import Form from './Form';
 import Footer from './Footer';
 
 class App extends Component{
@@ -15,6 +16,7 @@ class App extends Component{
                 <ContactUS />
                 <ForSale />
                 {/* <FeedbackSection /> */}
+                <Form />
                 <Footer />
             </div>
         );
