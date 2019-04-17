@@ -1,48 +1,49 @@
 import React, { Component } from 'react';
 import '../css/Nav.css';
 
-const navList = [
-    {pageWay: '#', pageName: 'Homepage'},
-    {pageWay: '#', pageName: 'About Us'},
-    {pageWay: '#', pageName: 'For Rent'},
-    {pageWay: '#', pageName: 'For Sale'},
-    {pageWay: '#', pageName: 'Our Agents'},
-    {pageWay: '#', pageName: 'Contact Us'}
-];
-
 class Nav extends Component{ 
     constructor(props) {
         super(props);
-        this.state = {style: {textDecoration: 'none'}};
+        this.navList = [
+            {pageWay: '#', pageName: 'Homepage'},
+            {pageWay: '#', pageName: 'About Us'},
+            {pageWay: '#', pageName: 'For Rent'},
+            {pageWay: '#', pageName: 'For Sale'},
+            {pageWay: '#', pageName: 'Our Agents'},
+            {pageWay: '#', pageName: 'Contact Us'}
+        ];
 
+        this.state = {activeElement: undefined};
         this.onMouseOutHandler = this.onMouseOutHandler.bind(this);
         this.onMouseOverHandler = this.onMouseOverHandler.bind(this);
-        console.log('Mount');
+        console.log('mount');
     }
 
     onMouseOutHandler() {
-        this.setState({style: {textDecoration: 'none'}});
+        this.setState({activeElement: undefined});
         console.log('OFF');
     }
 
-    onMouseOverHandler() {  
-        this.setState({style: {textDecoration: 'underline'}});
-        console.log('ON');
+    onMouseOverHandler(e) {  
+        this.setState({activeElement: e.target.name});
+        console.log(e.target.name);
     }
 
     render() {
-        console.log(4);
+        console.log('render');
         return (
             <div>
                 <nav>
                     <ul className='menu'>
-                        {navList.map(element =>
-                            <li key={element.pageName}>
-                                {console.log('el')}
-                                <a href={element.pageWay} style={this.state.style}
-                                onMouseOut={this.onMouseOutHandler}
-                                onMouseOver={this.onMouseOverHandler}>
-                                {element.pageName}</a>
+                        {this.navList.map(el =>
+                            <li key={el.pageName}>
+                                <a href={el.pageWay}  
+                                    style={{textDecoration: this.state.activeElement === el.pageName ? 'underline' : 'none'}}
+                                    name={el.pageName}
+                                    onMouseOut={this.onMouseOutHandler}
+                                    onMouseOver={this.onMouseOverHandler}>
+                                        {el.pageName}
+                                </a>
                             </li>
                         )}
                     </ul>
