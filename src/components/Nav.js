@@ -14,23 +14,24 @@ class Nav extends Component{
         ];
 
         this.state = {activeElement: undefined};
+        
         this.onMouseOutHandler = this.onMouseOutHandler.bind(this);
         this.onMouseOverHandler = this.onMouseOverHandler.bind(this);
-        console.log('mount');
+        // console.log('mount');
     }
 
     onMouseOutHandler() {
         this.setState({activeElement: undefined});
-        console.log('OFF');
+        // console.log('OFF');
     }
 
-    onMouseOverHandler(e) {  
-        this.setState({activeElement: e.target.name});
-        console.log(e.target.name);
+    onMouseOverHandler(event) {  
+        this.setState({activeElement: event.target.name});
+        // console.log(event.target.name);
     }
 
     render() {
-        console.log('render');
+        // console.log('render');
         return (
             <div>
                 <nav>
